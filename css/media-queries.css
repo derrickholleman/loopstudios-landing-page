@@ -119,7 +119,7 @@
         z-index: 99;
         background-color: black;
         padding-top: 9rem;
-        transition: .45s ease-in-out;
+        transition: .4s ease-in-out;
     }
     .mobile-nav.is-active {
         left: 0;
