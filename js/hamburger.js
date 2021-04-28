@@ -16,7 +16,7 @@ menu_btn.addEventListener('click', function () {
 	mobile_menu.classList.toggle('is-active');
 })
 
-/* locks the hamburger menu from scrolling while open */
+/* prevents the hamburger menu from scrolling while open */
 jQuery('#hamburger').click(function(){
     var menu_active = jQuery(this).hasClass('is-active');
     if(menu_active){
