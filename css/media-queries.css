@@ -1,47 +1,5 @@
 /* NAV MEDIA QUERIES */ 
 @media screen and (max-width: 320px) {
-    header {
-        background-image: url('../images/mobile/image-hero.jpg');
-        max-width: 750px;
-    }
-    .hamburger {
-        display: block;
-        z-index: 10000;
-        position: absolute;
-        right: 2rem;
-        top: 3rem;
-    }
-    .nav-ul {
-        display: none;
-    }
-    .mobile-nav {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 100%;
-        width: 100%;
-        height: 100%;
-        z-index: 99;
-        padding-top: 8rem;
-        transition: .4s;
-    }
-    .mobile-nav > li {
-        display: block;
-        margin: 0 0 2rem 2rem;
-        font-size: 3rem;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    .mobile-nav > li > a:hover:after {
-        content: ""; 
-        display: block; 
-        margin-left: 2rem; 
-        width: 10%; 
-        padding-bottom: .5rem; 
-        border-bottom: 2px solid white; 
-    } 
-    .mobile-nav.is-active {
-        left: 0;
-    }
     .hero-text {
         text-align: left;
     }
@@ -135,7 +93,7 @@
     }
 }
 /* CUT OFF FOR HAMBURGER VIEW */ 
-@media screen and (min-width: 321px) and (max-width: 750px) {
+@media screen and (min-width: 320px) and (max-width: 750px) {
     header {
         background-image: url('../images/mobile/image-hero.jpg');
         max-width: 750px;
@@ -159,7 +117,7 @@
         height: 100%;
         z-index: 99;
         background-color: black;
-        padding-top: 11rem;
+        padding-top: 9rem;
         transition: .4s;
     }
     .mobile-nav > li {
