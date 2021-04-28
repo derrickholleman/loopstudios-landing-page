@@ -120,6 +120,9 @@
         padding-top: 9rem;
         transition: .4s;
     }
+    .mobile-nav.is-active {
+        left: 0;
+    }
     .mobile-nav > li {
         display: block;
         margin: 0 0 2rem 2rem;
@@ -134,9 +137,6 @@
         padding-bottom: .5rem; 
         border-bottom: 2px solid white; 
     } 
-    .mobile-nav.is-active {
-        left: 0;
-    }
     .hero-text {
         text-align: left;
     }
