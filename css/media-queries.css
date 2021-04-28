@@ -66,6 +66,12 @@
     } 
 }
 
+@media screen and (max-width: 375px) {
+    .text-box {
+        align-items: initial;
+    }
+}
+
 @media screen and (min-width: 416px) and (max-width: 442px) {
     .hero-text {
         font-size: 3rem;
