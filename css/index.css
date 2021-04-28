@@ -167,7 +167,7 @@ main {
     display: none;
 }
 
-button:hover {
+.see-all-btn-mobile:hover, .see-all-btn:hover {
     color: white;
     background-color: black;
 }
