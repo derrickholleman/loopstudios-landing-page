@@ -49,6 +49,9 @@
         margin-top: -3rem;
     }
 }
+@media screen and (max-width: 337px) {
+    
+}
 @media screen and (max-width: 416px) {
     .hero-text {
         font-size: 2rem;
@@ -69,6 +72,10 @@
 @media screen and (max-width: 375px) {
     .text-box {
         align-items: initial;
+    }
+    .paragraph {
+        max-width: 100%;
+        padding-right: 1rem;
     }
 }
 
