@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- For external style sheets -->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+  <link rel="stylesheet" type="text/css" href="css/hamburger-animation.css">
+  <!--Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- For custom fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"> 
+  <!-- Font awesome stuff -->
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/b96c1e7f03.js"></script>
+  <title></title>
+  <style>
+
+    *, *:before, *:after {
+    box-sizing: border-box;
+    }
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+  
+  html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+  width: 1440px;
+  margin: 0 auto;
+  max-width: 100%;
+  min-height: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: 'Alata', sans-serif;
+  font-family: 'Josefin Sans', sans-serif; */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-inline-start: 0%;
+  font-size: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+</style>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.svg" width="192" height="32"></a>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+        <nav class="nav-ul" id='nav-ul'>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Career</a></li>
+          <li><a href="index.html">Event</a></li>
+          <li><a href="index.html">Product</a></li>
+          <li><a href="index.html">Support</a></li>
+        </nav>
+        <nav class="mobile-nav">
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Career</a></li>
+          <li><a href="index.html">Event</a></li>
+          <li><a href="index.html">Product</a></li>
+          <li><a href="index.html">Support</a></li>
+        </nav>
+        <div class="hero-text-container">
+          <div class="hero-text">
+            IMMERSIVE EXPERIENCES </br> THAT DELIVER
+          </div>
+        </div>
+        <div class="empty">
+
+        </div>
+    </div>
+  </header> 
+
+  <article>
+    <div class="article-container">
+      <picture class="interactive">
+        <source srcset="images/desktop/image-interactive.jpg" media="(min-width: 751px)">
+        <img src="images/desktop/image-interactive.jpg" width="731" height="500">
+      </picture>
+      <div class="text-box">
+        <p class="text-box-title">THE LEADER IN </br> INTERACTIVE VR</p>
+        <p class="paragraph">
+          Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe.  Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <main>
+    <div class="main-container">
+      <div class="main-title">
+        <p class="our-creations">OUR CREATIONS</p>
+        <button class="see-all-btn">
+          SEE ALL
+        </button>
+      </div>
+      <!-------------->
+      <!--PHOTO GRID-->
+      <!-------------->
+      <div class="photo-grid">
+
+        <div class="grid-photo-container">
+          <picture class="grid-photo">
+            <source srcset="images/desktop/image-deep-earth.jpg" media="(min-width: 751px)">
+            <img src="images/mobile/image-deep-earth.jpg" width="654" height="240">
+          </picture>
+          <p class="grid-photo-text">DEEP </br>EARTH</p>
+        </div>
+
+        <div class="grid-photo-container">
+          <picture class="grid-photo">
+            <source srcset="images/desktop/image-night-arcade.jpg" media="(min-width: 751px)">
+            <img src="images/mobile/image-night-arcade.jpg" width="654" height="240">
+          </picture>
+          <p class="grid-photo-text">NIGHT </br>ARCADE</p>
+        </div>
+
+        <div class="grid-photo-container">
+          <picture class="grid-photo">
+            <source srcset="images/desktop/image-soccer-team.jpg" media="(min-width: 751px)">
+            <img src="images/mobile/image-soccer-team.jpg" width="654" height="240">
+          </picture>
+          <p class="grid-photo-text">SOCCER </br>TEAM VR</p>
+        </div>
+
+        <div class="grid-photo-container">
+          <picture class="grid-photo">
+            <source srcset="images/desktop/image-grid.jpg" media="(min-width: 751px)">
+            <img src="images/mobile/image-grid.jpg" width="654" height="240">
+          </picture>
+          <p class="grid-photo-text">THE </br>GRID</p>
+        </div>
+
+        <div class="grid-photo-container">
+          <picture class="grid-photo">
+            <source srcset="images/desktop/image-from-above-darker.jpg" media="(min-width: 751px)">
+            <img src="images/mobile/image-from-above.jpg" width="654" height="240">
+          </picture>
+          <p class="grid-photo-text">FROM UP </br>ABOVE VR</p>
+        </div>
+
+        <div class="grid-photo-container">
+          <picture class="grid-photo">
+            <source srcset="images/desktop/image-pocket-borealis.jpg" media="(min-width: 751px)">
+            <img src="images/mobile/image-pocket-borealis.jpg" width="654" height="240">
+          </picture>
+          <p class="grid-photo-text">POCKET </br>BOREALIS</p>
+        </div>
+
+        <div class="grid-photo-container">
+          <picture class="grid-photo">
+            <source srcset="images/desktop/image-curiosity.jpg" media="(min-width: 751px)">
+            <img src="images/mobile/image-curiosity.jpg" width="654" height="240">
+          </picture>
+          <p class="grid-photo-text">THE</br>CURIOSITY</p>
+        </div>
+
+        <div class="grid-photo-container">
+          <picture class="grid-photo">
+            <source srcset="images/desktop/image-fisheye-darker.jpg" media="(min-width: 751px)">
+            <img src="images/mobile/image-fisheye.jpg" width="654" height="240">
+          </picture>
+          <p class="grid-photo-text">MAKE IT</br>FISHEYE</p>
+        </div>
+
+      </div>
+      <!-------------->
+      <!--PHOTO GRID-->
+      <!-------------->
+      <button class="see-all-btn-mobile">
+        SEE ALL
+      </button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="images/logo.svg" width="182" height="32">
+        </a>
+      </div>
+      <div class="footer-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="index.html">Career</a></li>
+        <li><a href="index.html">Event</a></li>
+        <li><a href="index.html">Product</a></li>
+        <li><a href="index.html">Support</a></li>
+      </div>
+      <div class="footer-socials">
+        <img src="images/icon-facebook.svg" width="30" height="30">
+        <img src="images/icon-twitter.svg" width="29" height="30">
+        <img src="images/icon-pinterest.svg" width="30" height="24">
+        <img src="images/icon-instagram.svg" width="30" height="24">
+      </div>
+      <div class="footer-copyright">
+        &copy 2021 Loopstudios.  All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+  
+ <!-- For JS Scripts -->
+ <script type="text/javascript" src="js/hamburger.js"></script>
+</body>
+</html>
