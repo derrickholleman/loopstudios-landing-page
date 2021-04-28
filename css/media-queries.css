@@ -75,6 +75,9 @@
 }
 
 @media screen and (max-width: 375px) {
+    .text-box-title {
+        margin-right: 2rem;
+    }
     .text-box {
         align-items: initial;
     }
