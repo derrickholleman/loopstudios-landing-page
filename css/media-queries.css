@@ -14,6 +14,9 @@
     .text-box-title {
         font-size: 2.2rem;
     }
+    .paragraph {
+        padding-right: 2rem;
+    }
 }
 @media screen and (max-width: 416px) {
     .hero-text {
@@ -31,16 +34,19 @@
     } 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 750px) {
     .text-box-title {
         margin-right: 2rem;
     }
     .text-box {
-        align-items: initial;
+        /* align-items: initial;
+        padding-left: 2rem; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .paragraph {
-        max-width: 100%;
-        padding-right: 1rem;
+        max-width: 90%;
     }
 }
 
@@ -191,9 +197,9 @@
         margin-top: 5rem;
     }
 }
-@media screen and (min-width: 338px) and (max-width: 445px) {
+@media screen and (max-width: 445px) {
     .text-box-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 /* changeover to tablet view */ 
