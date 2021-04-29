@@ -71,7 +71,6 @@
     .hero-text {
         font-size: 3rem;
         font-weight: bolder;
-        padding: 1rem 0 0 1rem;
     }
     .header-container {
     grid-auto-rows: 100px 250px;
