@@ -7,7 +7,7 @@ $('a[href*="#"]').on('click', function (e) {
       {
         scrollTop: $($(this).attr('href')).offset().top,
       },
-      375, // scroll speed in ms //
+      475, // scroll speed in ms //
       'linear'
     )
   })
