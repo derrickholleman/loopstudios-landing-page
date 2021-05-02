@@ -39,7 +39,8 @@ header {
 }
 
 /* smaller bottom border than the element size */ 
-.nav-ul > li > a:hover:after {
+.nav-ul > li > a:hover:after, 
+.nav-ul > li > a:active:after {
     content: ""; 
     display: block; 
     margin: 0 auto; 
@@ -167,7 +168,9 @@ main {
     display: none;
 }
 
-.see-all-btn-mobile:hover, .see-all-btn:hover {
+.see-all-btn-mobile:hover, .see-all-btn:hover, 
+.see-all-btn-mobile:focus, .see-all-btn:focus, 
+.see-all-btn-mobile:active, .see-all-btn:active {
     color: white;
     background-color: black;
 }
@@ -184,7 +187,9 @@ main {
     position: relative;
 }
 
-.grid-photo-container:hover {
+.grid-photo-container:hover, 
+.grid-photo-container:focus, 
+.grid-photo-container:active {
     opacity: .7;
     cursor: pointer;
 }
@@ -254,7 +259,9 @@ footer {
     transition: font-size .2s ease-out;
 }
 
-.footer-links > li > a:hover {
+.footer-links > li > a:hover, 
+.footer-links > li > a:focus, 
+.footer-links > li > a:active {
     font-size: 1.3rem;
 }
 
