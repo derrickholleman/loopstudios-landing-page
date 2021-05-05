@@ -155,19 +155,18 @@
         margin-right: 0;
     }
         /* mobile nav fade in animation START */
-        .mobile-nav.is-active li {
-        opacity:0;
-        transform:translateY(50px)
+        .mobile-nav.is-active li { 
+        opacity: 0; /* elements fade in from being invisible */
        }
        .mobile-nav.is-active li.open {
         animation-name: fadeIn;
         animation-fill-mode: forwards;
-        animation-duration: 1s;
-        animation-delay: .2s; /* time before animation kicks in */
-        animation-timing-function: ease-in-out
+        animation-duration: .5s; /* time between start and end of animation */
+        animation-delay: .1s; /* time before animation kicks in */
+        animation-timing-function: ease-in-out;
        }
        .mobile-nav.is-active li.open:nth-child(2) {
-        animation-delay: .3s;
+        animation-delay: .2s;
        }
        .mobile-nav.is-active li.open:nth-child(3) {
         animation-delay: .4s;
@@ -183,11 +182,11 @@
        }
        @keyframes fadeIn {
         0% {
-         transform: translateX(50px);
+         transform: translateX(75px); /* placement when animation begins */
          opacity: 0;
         }
         100% {
-         transform: translateX(0);
+         transform: translateX(0); /* placement when animation ends */
          opacity: 1;
         }
        }
