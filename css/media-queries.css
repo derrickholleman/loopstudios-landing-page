@@ -154,6 +154,44 @@
     .footer-copyright {
         margin-right: 0;
     }
+        /* mobile nav fade in animation START */
+        .mobile-nav.is-active li {
+        opacity:0;
+        transform:translateY(50px)
+       }
+       .mobile-nav.is-active li.open {
+        animation-name: fadeIn;
+        animation-fill-mode: forwards;
+        animation-duration: 1s;
+        animation-delay: .2s; /* time before animation kicks in */
+        animation-timing-function: ease-in-out
+       }
+       .mobile-nav.is-active li.open:nth-child(2) {
+        animation-delay: .3s;
+       }
+       .mobile-nav.is-active li.open:nth-child(3) {
+        animation-delay: .4s;
+       }
+       .mobile-nav.is-active li.open:nth-child(4) {
+        animation-delay: .5s;
+       }
+       .mobile-nav.is-active li.open:nth-child(5) {
+        animation-delay: .6s;
+       }
+       .mobile-nav.is-active li.open:nth-child(6) {
+        animation-delay: .7s;
+       }
+       @keyframes fadeIn {
+        0% {
+         transform: translateX(50px);
+         opacity: 0;
+        }
+        100% {
+         transform: translateX(0);
+         opacity: 1;
+        }
+       }
+       /* mobile nav fade in animation END*/
 }
 
 @media screen and (min-width: 751px) and (max-width: 938px) {
