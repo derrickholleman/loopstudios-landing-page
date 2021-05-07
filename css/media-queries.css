@@ -183,9 +183,6 @@
        .mobile-nav.is-active li.open:nth-child(5) {
         animation-delay: .6s;
        }
-       .mobile-nav.is-active li.open:nth-child(6) {
-        animation-delay: .7s;
-       }
        @keyframes fadeIn {
         0% {
          transform: translateX(75px); /* placement when animation begins */
