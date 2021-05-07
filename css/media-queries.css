@@ -4,7 +4,7 @@
         text-align: left;
     }
     .hero-text-container {
-        margin-top: -3rem;
+        margin-top: -1rem;
     }
     .text-box-title {
         padding-right: .5rem;
@@ -77,6 +77,12 @@
     }
     .hero-text-container {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .hero-text {
+        padding-top: .6rem;
     }
 }
 
