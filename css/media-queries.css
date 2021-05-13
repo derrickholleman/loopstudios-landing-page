@@ -142,7 +142,9 @@
         font-size: 3rem;
         font-family: 'Josefin Sans', sans-serif;
     }
-    .mobile-nav > li > a:hover::after {
+    .mobile-nav > li > a:hover::after, 
+    .mobile-nav > li > a:focus::after, 
+    .mobile-nav > li > a:active::after {
         content: ""; 
         display: block; 
         margin-left: 2rem; 

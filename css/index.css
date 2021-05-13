@@ -40,6 +40,7 @@ header {
 
 /* smaller bottom border than the element size */ 
 .nav-ul > li > a:hover:after, 
+.nav-ul > li > a:focus:after,
 .nav-ul > li > a:active:after {
     content: ""; 
     display: block; 
