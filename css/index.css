@@ -249,21 +249,25 @@ footer {
 .footer-links {
     grid-area: links;
     margin-top: 1.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
 }
 
-.footer-links > li > a {
+.footer-links > li {
+    min-height: 50px;
     margin-right: 2rem;
-    font-size: .9rem;
-    transition: font-size .2s ease-out;
 }
 
-.footer-links > li > a:hover, 
-.footer-links > li > a:focus, 
-.footer-links > li > a:active {
-    font-size: 1.3rem;
+.footer-links > li > a:hover:after, 
+.footer-links > li > a:focus:after,
+.footer-links > li > a:active:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 75%; 
+    padding-bottom: .5rem; 
+    border-bottom: 2px solid white; 
 }
 
 .footer-copyright {

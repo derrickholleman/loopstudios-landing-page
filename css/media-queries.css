@@ -338,6 +338,19 @@
         font-size: 1rem;
         margin-right: 0;
     }
+    .footer-links > li > a:hover:after, 
+    .footer-links > li > a:focus:after,
+    .footer-links > li > a:active:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 75%; 
+    padding-bottom: 0rem; 
+    border-bottom: 0px solid white; 
+}
+    .footer-links > li {
+        min-height: 50px;
+    }
     .footer-logo {
         width: 175px;
     }
