@@ -333,6 +333,10 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  .footer-links > li {
+    min-height: 50px;
+    margin-right: 0;
+  }
   .footer-links > li > a {
     font-size: 1rem;
     margin-right: 0;
@@ -346,9 +350,6 @@
     width: 75%;
     padding-bottom: 0rem;
     border-bottom: 0px solid white;
-  }
-  .footer-links > li {
-    min-height: 50px;
   }
   .footer-logo {
     width: 175px;
