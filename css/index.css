@@ -259,7 +259,6 @@ footer {
 
 .footer-links > li {
   min-height: 50px; /* give a min-height so elements don't shift on hover */
-  margin-right: 2rem;
 }
 
 .footer-links > li > a:hover:after,
